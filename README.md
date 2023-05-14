@@ -27,6 +27,30 @@ These instructions will guide you on how to get the project up and running on yo
 
 1. **Clone the repository.**
 ```sh
-git clone https://github.com/yourusername/RefugeeMovementVisualization.git
+git clone https://github.com/OgbondaGlory/Visualising_USA_Refugee_resettlement_data.git
 
-Navigate into the directory.
+2. ** Navigate into the directory.**
+cd Visualising_USA_Refugee_resettlement_data
+
+3. **Install the required dependencies.** 
+npm install
+
+4. **Update the Mapbox API token placeholder in the code.**
+Locate the placeholder in the index.js file and replace it with your Mapbox API access token.
+
+5 **Update the data source.**
+In index.js, replace 'refugee_data.csv' with the path to your actual data file.
+
+## Running the Application
+npm start
+After running the above command, open your browser and navigate to the address provided in the console.
+
+## Data Format
+The data should be in CSV format, and the application converts it to GeoJSON. The data should include latitude, longitude, the number of refugees, the origin country, and the year of observation.
+
+## Contributing
+Contributions are welcome. If you're interested in enhancing the features or fixing bugs, please create a pull request, or open an issue to discuss what you would like to change.
+
+## License
+This project is licensed under the MIT License. For more information, see the LICENSE file.
+
