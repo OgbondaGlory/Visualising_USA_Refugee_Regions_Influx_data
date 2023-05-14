@@ -1,0 +1,9 @@
+[
+    { "origin": "United States", "destination": "Canada", "count": 20000 },
+    { "origin": "United States", "destination": "Mexico", "count": 50000 },
+    { "origin": "Canada", "destination": "United States", "count": 15000 },
+    { "origin": "Canada", "destination": "Mexico", "count": 5000 },
+    { "origin": "Mexico", "destination": "United States", "count": 100000 },
+    { "origin": "Mexico", "destination": "Canada", "count": 8000 }
+  ]
+  
