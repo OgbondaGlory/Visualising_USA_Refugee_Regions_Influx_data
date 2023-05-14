@@ -28,21 +28,24 @@ These instructions will guide you on how to get the project up and running on yo
 1. **Clone the repository.**
 ```sh
 git clone https://github.com/OgbondaGlory/Visualising_USA_Refugee_resettlement_data.git
-
-2. ** Navigate into the directory.**
-cd Visualising_USA_Refugee_resettlement_data
+```
+2. **Navigate into the directory.**
+```sh 
+cd Visualising_USA_Refugee_resettlement_data 
+```
 
 3. **Install the required dependencies.** 
+```sh 
 npm install
-
+```
 4. **Update the Mapbox API token placeholder in the code.**
-Locate the placeholder in the index.js file and replace it with your Mapbox API access token.
+Locate the placeholder in the ```sh index.js ``` file and replace it with your Mapbox API access token.
 
-5 **Update the data source.**
-In index.js, replace 'refugee_data.csv' with the path to your actual data file.
+5. **Update the data source.**
+In ```sh index.js ```, replace ```sh 'refugee_data.csv' ``` with the path to your actual data file.
 
 ## Running the Application
-npm start
+```sh npm start ```
 After running the above command, open your browser and navigate to the address provided in the console.
 
 ## Data Format
