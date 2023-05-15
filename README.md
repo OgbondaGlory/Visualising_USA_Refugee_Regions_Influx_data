@@ -1,6 +1,6 @@
 # Visualising_USA_Refugee_regions_Influx_data
  Discover the journey of refugees resettled in the U.S. from 1975 to 2018, a story of hope, resilience, and diversity
-<img src="./USREFUGEES.png" alt="Visualising_USA_Refugee_regions_Influx_data" title="Screenshot of the Immersive Data Visualisation Application" style="box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2), 0 2px 6px rgba(0, 0, 0, 0.16);">
+<img src="./USA_INFLUX.png" alt="Visualising_USA_Refugee_regions_Influx_data" title="Screenshot Visualising_USA_Refugee_regions_Influx_data" style="box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2), 0 2px 6px rgba(0, 0, 0, 0.16);">
 
 # Refugee Movement Visualization: A Data-Driven Interactive Map
 
