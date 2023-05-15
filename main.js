@@ -264,7 +264,7 @@ toggleButton.innerHTML = 'Hide Data';
   let individualEntry = document.createElement('div');
   individualEntry.innerHTML = `
     <span style="display: inline-block; width: 10px; height: 10px; border-radius: 50%; background-color: #11b4da;"></span>
-    <label> - Individual point</label>
+    <label> - Individual location point</label>
   `;
   legend.appendChild(individualEntry);
 
@@ -277,7 +277,7 @@ toggleButton.innerHTML = 'Hide Data';
     let clusterEntry = document.createElement('div');
     clusterEntry.innerHTML = `
       <span style="display: inline-block; width: ${clusterSizes[i]}px; height: ${clusterSizes[i]}px; border-radius: 50%; background-color: ${clusterColors[i]};"></span>
-      <label> - Cluster (>=${clusterCounts[i]} points)</label>
+      <label> - Locations Cluster (>=${clusterCounts[i]} points)</label>
     `;
     legend.appendChild(clusterEntry);
   }
@@ -325,7 +325,7 @@ let totalPointsText = d3.select('body').append('p')
   .style('text-align', 'center')
   .style('width', '100%')
   .style('bottom', '10px')
-  .text(`Total Points: ${data.length.toLocaleString()}`);
+  .text(`Total Location Points: ${data.length.toLocaleString()}`);
 
 // Variable to track whether it's the first time the 'input' event is triggered
 let isFirstInput = true;
@@ -348,7 +348,7 @@ slider.on('input', function() {
   }
 
   // Update the total points count text
-  totalPointsText.text(`Total Points: ${totalPoints.toLocaleString()}`);
+  totalPointsText.text(`Total Location Points: ${totalPoints.toLocaleString()}`);
 
   // Update the label
   sliderLabel.text(`Year: ${year}`); // Always show specific year
